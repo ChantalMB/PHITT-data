@@ -1,0 +1,7 @@
+databases:
+  phitt:
+    tables:
+      phitt_data:
+        plugins:
+          datasette-selective-image-display:
+            columns: [image_permalink]
